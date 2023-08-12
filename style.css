@@ -1,10 +1,10 @@
 * {
   margin: 0;
   font-family: Arial;
-  border: border-box;
+  box-sizing: border-box;
 }
 .navbar {
-  height: 8vh;
+  height: 40px;
   background-color: #0f1111;
   color: white;
   display: flex;
@@ -142,7 +142,7 @@
 
 .main-banner {
   background-image: url(main-banner.jpg);
-  height: 40vh;
+  height: 250px;
   background-size: cover;
   display: flex;
   align-items: end;
@@ -150,7 +150,7 @@
   
 }
 
-.banner-msg {   
+.banner-msg {
   height: 25px;
   background-color: #f5f6f6f6;
   color: #0f1111;
