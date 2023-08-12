@@ -4,7 +4,7 @@
   border: border-box;
 }
 .navbar {
-  height: 40px;
+  height: 8vh;
   background-color: #0f1111;
   color: white;
   display: flex;
@@ -142,7 +142,7 @@
 
 .main-banner {
   background-image: url(main-banner.jpg);
-  height: 250px;
+  height: 40vh;
   background-size: cover;
   display: flex;
   align-items: end;
